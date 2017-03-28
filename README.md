@@ -112,12 +112,7 @@
 - chapter9-1-6：[Spring Cloud构建微服务架构（六）集群监控]
 
 
-## 教程整理地址（时间不足，暂缓更新）
 
-http://blog.didispace.com/book/springboot/
 
-## 打赏支持
-
-<img src="http://git.oschina.net/uploads/images/2016/0717/085831_64f0a21e_437188.png" width="200px" height="200px;" /> <img src="http://git.oschina.net/uploads/images/2016/0717/085620_78f6b3cb_437188.png" width="200px" height="200px;" />
 
 
