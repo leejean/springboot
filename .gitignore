@@ -16,7 +16,8 @@ Thumbs.db
 .gradle/  
 build/  
 target/  
-bin/  
+bin/ 
+ 
 dependency-reduced-pom.xml  
   
 # Eclipse Project Files  
@@ -33,3 +34,9 @@ dependency-reduced-pom.xml
 *.iws  
 *.idea  
 *.class
+
+*/.settings/*
+*/.settings/**
+*/classes/**
+*/classes/*
+*/target/*

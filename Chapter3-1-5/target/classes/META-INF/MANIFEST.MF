@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Vendor: Pivotal Software, Inc.
-Implementation-Title: SpringBootWithSwagger
+Implementation-Title: Chapter3-1-5
 Implementation-Version: 1.0.0
 Implementation-Vendor-Id: com.didispace
 Build-Jdk: 1.7.0_45

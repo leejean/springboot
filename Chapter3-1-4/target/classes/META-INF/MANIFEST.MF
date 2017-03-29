@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Vendor: Pivotal Software, Inc.
-Implementation-Title: demo
+Implementation-Title: Chapter3-1-4
 Implementation-Version: 1.0.0
 Implementation-Vendor-Id: com.didispace
 Build-Jdk: 1.7.0_45

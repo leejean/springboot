@@ -2,6 +2,9 @@ package com.didispace;
 
 import com.didispace.domain.User;
 import com.didispace.domain.UserRepository;
+
+import java.util.List;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,27 +23,35 @@ public class ApplicationTests {
 
 	@Before
 	public void setUp() {
-		userRepository.deleteAll();
+		//userRepository.deleteAll();
 	}
 
 	@Test
 	public void test() throws Exception {
 
-		// 创建三个User，并验证User总数
-		userRepository.save(new User(1L, "didi", 30));
-		userRepository.save(new User(2L, "mama", 40));
-		userRepository.save(new User(3L, "kaka", 50));
-		Assert.assertEquals(3, userRepository.findAll().size());
-
-		// 删除一个User，再验证User总数
-		User u = userRepository.findOne(1L);
-		userRepository.delete(u);
-		Assert.assertEquals(2, userRepository.findAll().size());
-
-		// 删除一个User，再验证User总数
-		u = userRepository.findByUsername("mama");
-		userRepository.delete(u);
-		Assert.assertEquals(1, userRepository.findAll().size());
+		try {
+			// 创建三个User，并验证User总数
+			userRepository.save(new User(1L, "嘿嘿嘿1", 30));
+			userRepository.save(new User(2L, "嘿嘿嘿2", 40));
+			userRepository.save(new User(3L, "嘿嘿嘿3", 50));
+			List<User> findAll = userRepository.findAll();
+			for (User user : findAll) {
+				System.out.println(user.toString());
+			}
+//		// 删除一个User，再验证User总数
+//		User u = userRepository.findOne(1L);
+//		userRepository.delete(u);
+//		Assert.assertEquals(2, userRepository.findAll().size());
+//
+//		// 删除一个User，再验证User总数
+//		u = userRepository.findByUsername("mama");
+//		userRepository.delete(u);
+//		Assert.assertEquals(1, userRepository.findAll().size());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		}
 
 	}
 
