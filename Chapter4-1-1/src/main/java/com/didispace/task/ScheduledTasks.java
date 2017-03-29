@@ -15,5 +15,9 @@ public class ScheduledTasks {
     public void reportCurrentTime() {
         System.out.println("当前时间：" + dateFormat.format(new Date()));
     }
+    @Scheduled(cron="0/10 * * * * ?")
+    public void reportCurrentTime2() {
+    	System.out.println("当前时间2：" + dateFormat.format(new Date()));
+    }
 
 }
