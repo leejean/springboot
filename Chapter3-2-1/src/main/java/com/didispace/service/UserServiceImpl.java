@@ -18,21 +18,21 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void create(String name, Integer age) {
-        jdbcTemplate.update("insert into USER(NAME, AGE) values(?, ?)", name, age);
+        jdbcTemplate.update("insert into T_USER(NAME, AGE) values(?, ?)", name, age);
     }
 
     @Override
     public void deleteByName(String name) {
-        jdbcTemplate.update("delete from USER where NAME = ?", name);
+        jdbcTemplate.update("delete from T_USER where NAME = ?", name);
     }
 
     @Override
     public Integer getAllUsers() {
-        return jdbcTemplate.queryForObject("select count(1) from USER", Integer.class);
+        return jdbcTemplate.queryForObject("select count(1) from T_USER", Integer.class);
     }
 
     @Override
     public void deleteAllUsers() {
-        jdbcTemplate.update("delete from USER");
+        jdbcTemplate.update("delete from T_USER");
     }
 }
