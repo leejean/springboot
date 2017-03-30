@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
 Implementation-Vendor: Pivotal Software, Inc.
-Implementation-Title: demo
+Implementation-Title: Chapter4-2-6
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.didispace
 Build-Jdk: 1.7.0_45
 Built-By: Administrator
 Created-By: Maven Integration for Eclipse
-Implementation-URL: http://projects.spring.io/spring-boot/demo/
+Implementation-URL: http://projects.spring.io/spring-boot/Chapter4-2-6
+ /
 
