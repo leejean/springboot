@@ -27,6 +27,10 @@ public class ApplicationTests {
 		Future<String> task3 = task.doTaskThree();
 
 		while(true) {
+			System.out.println(
+					"task1.isDone:" + task1.isDone() +
+					",task2.isDone:" + task2.isDone() +
+					",task3.isDone:" + task3.isDone());
 			if(task1.isDone() && task2.isDone() && task3.isDone()) {
 				// 三个任务都调用完成，退出循环等待
 				break;
