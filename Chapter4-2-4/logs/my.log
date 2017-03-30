@@ -1,0 +1,101 @@
+2017-03-30 17:37:53,327  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 6760 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:37:53,329 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:37:53,330  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:37:56,910  INFO Application:57 ---- Started Application in 3.941 seconds (JVM running for 4.221)
+2017-03-30 17:38:46,504  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:38:46,505  INFO WebLogAspect:47 ---- HTTP_METHOD : GET
+2017-03-30 17:38:46,505  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:38:46,508  INFO WebLogAspect:49 ---- CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:38:46,508  INFO WebLogAspect:50 ---- ARGS : [1]
+2017-03-30 17:38:46,523  INFO WebLogAspect:57 ---- RESPONSE : Hello 1
+2017-03-30 17:38:46,524  INFO WebLogAspect:58 ---- SPEND TIME : 20
+2017-03-30 17:39:45,238  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:39:45,239  INFO WebLogAspect:47 ---- HTTP_METHOD : GET
+2017-03-30 17:39:45,240  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:39:45,241  INFO WebLogAspect:49 ---- CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:39:45,241  INFO WebLogAspect:50 ---- ARGS : [2]
+2017-03-30 17:39:45,242  INFO WebLogAspect:57 ---- RESPONSE : Hello 2
+2017-03-30 17:39:45,242  INFO WebLogAspect:58 ---- SPEND TIME : 4
+2017-03-30 17:39:56,758  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:39:56,759  INFO WebLogAspect:47 ---- HTTP_METHOD : GET
+2017-03-30 17:39:56,759  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:39:56,760  INFO WebLogAspect:49 ---- CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:39:56,761  INFO WebLogAspect:50 ---- ARGS : [2]
+2017-03-30 17:39:56,762  INFO WebLogAspect:57 ---- RESPONSE : Hello 2
+2017-03-30 17:39:56,762  INFO WebLogAspect:58 ---- SPEND TIME : 4
+2017-03-30 17:40:57,398  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 11180 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:40:57,400 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:40:57,401  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:41:00,031  INFO Application:57 ---- Started Application in 2.924 seconds (JVM running for 3.23)
+2017-03-30 17:41:11,481  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:41:11,482  INFO WebLogAspect:47 ---- HTTP_METHOD : GET
+2017-03-30 17:41:11,482  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:41:11,483  INFO WebLogAspect:49 ---- CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:41:11,484  INFO WebLogAspect:50 ---- ARGS : [2]
+2017-03-30 17:41:11,493  INFO WebLogAspect:57 ---- RESPONSE : Hello 2
+2017-03-30 17:41:11,494  INFO WebLogAspect:58 ---- SPEND TIME : 13
+2017-03-30 17:41:51,658  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 10908 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:41:51,660 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:41:51,661  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:41:54,307  INFO Application:57 ---- Started Application in 2.916 seconds (JVM running for 3.167)
+2017-03-30 17:42:03,553  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:42:03,554  INFO WebLogAspect:47 ---- HTTP_METHOD : GET
+2017-03-30 17:42:03,554  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:42:03,556  INFO WebLogAspect:49 ---- CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:42:03,556  INFO WebLogAspect:50 ---- ARGS : [2]
+2017-03-30 17:42:03,566  INFO WebLogAspect:57 ---- RESPONSE : Hello 2
+2017-03-30 17:42:03,567  INFO WebLogAspect:58 ---- SPEND TIME : 14
+2017-03-30 17:43:28,207  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 3180 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:43:28,210 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:43:28,211  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:43:31,121  INFO Application:57 ---- Started Application in 3.211 seconds (JVM running for 3.548)
+2017-03-30 17:43:34,517  INFO WebLogAspect:46 ---- URL : http://127.0.0.1:8080/hello
+2017-03-30 17:43:34,518  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:43:34,518  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:43:34,520  INFO WebLogAspect:49 ---- 类方法 : com.didispace.web.HelloController.hello
+2017-03-30 17:43:34,520  INFO WebLogAspect:50 ---- 参数 : [2]
+2017-03-30 17:43:34,532  INFO WebLogAspect:57 ---- 响应 : Hello 2
+2017-03-30 17:43:34,532  INFO WebLogAspect:58 ---- 耗时 : 15
+2017-03-30 17:44:18,887  INFO WebLogAspect:46 ---- URL : http://devfwc.testtsh365.cn:8080/hello
+2017-03-30 17:44:18,887  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:44:18,888  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:44:18,888  INFO WebLogAspect:49 ---- 类方法 : com.didispace.web.HelloController.hello
+2017-03-30 17:44:18,888  INFO WebLogAspect:50 ---- 参数 : [2]
+2017-03-30 17:44:18,888  INFO WebLogAspect:57 ---- 响应 : Hello 2
+2017-03-30 17:44:18,889  INFO WebLogAspect:58 ---- 耗时 : 2
+2017-03-30 17:44:29,012  INFO WebLogAspect:46 ---- URL : http://devfwc.testtsh365.cn:8080/hello
+2017-03-30 17:44:29,013  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:44:29,014  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:44:29,014  INFO WebLogAspect:49 ---- 类方法 : com.didispace.web.HelloController.hello
+2017-03-30 17:44:29,015  INFO WebLogAspect:50 ---- 参数 : [2]
+2017-03-30 17:44:29,016  INFO WebLogAspect:57 ---- 响应 : Hello 2
+2017-03-30 17:44:29,016  INFO WebLogAspect:58 ---- 耗时 : 4
+2017-03-30 17:45:29,317  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 9204 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:45:29,319 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:45:29,320  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:45:31,898  INFO Application:57 ---- Started Application in 2.835 seconds (JVM running for 3.084)
+2017-03-30 17:45:37,642  INFO WebLogAspect:46 ---- URL : http://devfwc.testtsh365.cn:8080/hello
+2017-03-30 17:45:37,642  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:45:37,643  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:45:37,644  INFO WebLogAspect:49 ---- 类方法 : com.didispace.web.HelloController.hello
+2017-03-30 17:45:37,645  INFO WebLogAspect:50 ---- 参数 : [2]
+2017-03-30 17:45:37,655  INFO WebLogAspect:57 ---- 响应 : Hello 2
+2017-03-30 17:45:37,655  INFO WebLogAspect:58 ---- 耗时 : 13 ms
+2017-03-30 17:46:03,329  INFO WebLogAspect:46 ---- URL : http://devfwc.testtsh365.cn:8080/hello
+2017-03-30 17:46:03,329  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:46:03,330  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:46:03,330  INFO WebLogAspect:49 ---- 类方法 : com.didispace.web.HelloController.hello
+2017-03-30 17:46:03,331  INFO WebLogAspect:50 ---- 参数 : [2]
+2017-03-30 17:46:03,331  INFO WebLogAspect:57 ---- 响应 : Hello 2
+2017-03-30 17:46:03,331  INFO WebLogAspect:58 ---- 耗时 : 2 ms
+2017-03-30 17:48:35,520  INFO Application:48 ---- Starting Application on USER-20170203IG with PID 10288 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:48:35,522 DEBUG Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:48:35,522  INFO Application:666 ---- No active profile set, falling back to default profiles: default
+2017-03-30 17:48:38,421  INFO Application:57 ---- Started Application in 3.186 seconds (JVM running for 3.451)
+2017-03-30 17:48:45,100  INFO WebLogAspect:46 ---- URL : http://devfwc.testtsh365.cn:8080/hello
+2017-03-30 17:48:45,100  INFO WebLogAspect:47 ---- 方法 : GET
+2017-03-30 17:48:45,101  INFO WebLogAspect:48 ---- IP : 127.0.0.1
+2017-03-30 17:48:45,102  INFO WebLogAspect:49 ---- 类方法 : class com.didispace.web.HelloController:com.didispace.web.HelloController.hello
+2017-03-30 17:48:45,103  INFO WebLogAspect:53 ---- 参数 : [2]
+2017-03-30 17:48:45,113  INFO WebLogAspect:60 ---- 响应 : Hello 2
+2017-03-30 17:48:45,113  INFO WebLogAspect:61 ---- 耗时 : 13 ms

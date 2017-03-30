@@ -1,0 +1,701 @@
+2017-03-30 17:37:53,327  INFO Application:48 - Starting Application on USER-20170203IG with PID 6760 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+2017-03-30 17:37:53,329 DEBUG Application:51 - Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2017-03-30 17:37:53,330  INFO Application:666 - No active profile set, falling back to default profiles: default
+2017-03-30 17:37:53,378  INFO AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64c53235: startup date [Thu Mar 30 17:37:53 CST 2017]; root of context hierarchy
+2017-03-30 17:37:54,043  INFO Version:17 - HV000001: Hibernate Validator 5.2.2.Final
+2017-03-30 17:37:54,228  INFO DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2017-03-30 17:37:55,389  INFO TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2017-03-30 17:37:55,416  INFO StandardService:180 - Starting service Tomcat
+2017-03-30 17:37:55,417  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2017-03-30 17:37:55,579  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2017-03-30 17:37:55,579  INFO ContextLoader:272 - Root WebApplicationContext: initialization completed in 2203 ms
+2017-03-30 17:37:56,077  INFO ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 17:37:56,081  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 17:37:56,082  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 17:37:56,082  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 17:37:56,082  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 17:37:56,403  INFO RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64c53235: startup date [Thu Mar 30 17:37:53 CST 2017]; root of context hierarchy
+2017-03-30 17:37:56,480  INFO RequestMappingHandlerMapping:527 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+2017-03-30 17:37:56,483  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 17:37:56,483  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 17:37:56,523  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 17:37:56,524  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 17:37:56,580  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 17:37:56,730  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-03-30 17:37:56,776  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-03-30 17:37:56,792  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2017-03-30 17:37:56,879  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2017-03-30 17:37:56,905  INFO TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2017-03-30 17:37:56,910  INFO Application:57 - Started Application in 3.941 seconds (JVM running for 4.221)
+2017-03-30 17:38:13,517  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 17:38:13,518  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 17:38:13,544  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2017-03-30 17:38:46,504  INFO WebLogAspect:46 - URL : http://127.0.0.1:8080/hello
+2017-03-30 17:38:46,505  INFO WebLogAspect:47 - HTTP_METHOD : GET
+2017-03-30 17:38:46,505  INFO WebLogAspect:48 - IP : 127.0.0.1
+2017-03-30 17:38:46,508  INFO WebLogAspect:49 - CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:38:46,508  INFO WebLogAspect:50 - ARGS : [1]
+2017-03-30 17:38:46,523  INFO WebLogAspect:57 - RESPONSE : Hello 1
+2017-03-30 17:38:46,524  INFO WebLogAspect:58 - SPEND TIME : 20
+2017-03-30 17:39:45,238  INFO WebLogAspect:46 - URL : http://127.0.0.1:8080/hello
+2017-03-30 17:39:45,239  INFO WebLogAspect:47 - HTTP_METHOD : GET
+2017-03-30 17:39:45,240  INFO WebLogAspect:48 - IP : 127.0.0.1
+2017-03-30 17:39:45,241  INFO WebLogAspect:49 - CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:39:45,241  INFO WebLogAspect:50 - ARGS : [2]
+2017-03-30 17:39:45,242  INFO WebLogAspect:57 - RESPONSE : Hello 2
+2017-03-30 17:39:45,242  INFO WebLogAspect:58 - SPEND TIME : 4
+2017-03-30 17:39:56,758  INFO WebLogAspect:46 - URL : http://127.0.0.1:8080/hello
+2017-03-30 17:39:56,759  INFO WebLogAspect:47 - HTTP_METHOD : GET
+2017-03-30 17:39:56,759  INFO WebLogAspect:48 - IP : 127.0.0.1
+2017-03-30 17:39:56,760  INFO WebLogAspect:49 - CLASS_METHOD : com.didispace.web.HelloController.hello
+2017-03-30 17:39:56,761  INFO WebLogAspect:50 - ARGS : [2]
+2017-03-30 17:39:56,762  INFO WebLogAspect:57 - RESPONSE : Hello 2
+2017-03-30 17:39:56,762  INFO WebLogAspect:58 - SPEND TIME : 4
+[2017-03-30 17:40:57,398] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 11180 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+
+[2017-03-30 17:40:57,400] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-03-30 17:40:57,401] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-03-30 17:40:57,440] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) 
+<INFO> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62efae19: startup date [Thu Mar 30 17:40:57 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:40:57,640] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) 
+<INFO> HV000001: Hibernate Validator 5.2.2.Final
+
+[2017-03-30 17:40:58,087] org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:839) 
+<INFO> Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+
+[2017-03-30 17:40:58,830] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:81) 
+<INFO> Tomcat initialized with port(s): 8080 (http)
+
+[2017-03-30 17:40:58,842] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting service Tomcat
+
+[2017-03-30 17:40:58,843] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting Servlet Engine: Apache Tomcat/8.0.30
+
+[2017-03-30 17:40:58,947] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring embedded WebApplicationContext
+
+[2017-03-30 17:40:58,948] org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:272) 
+<INFO> Root WebApplicationContext: initialization completed in 1510 ms
+
+[2017-03-30 17:40:59,368] org.springframework.boot.context.embedded.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:189) 
+<INFO> Mapping servlet: 'dispatcherServlet' to [/]
+
+[2017-03-30 17:40:59,371] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[2017-03-30 17:40:59,371] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[2017-03-30 17:40:59,372] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[2017-03-30 17:40:59,372] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'requestContextFilter' to: [/*]
+
+[2017-03-30 17:40:59,598] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) 
+<INFO> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62efae19: startup date [Thu Mar 30 17:40:57 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:40:59,673] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+
+[2017-03-30 17:40:59,677] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[2017-03-30 17:40:59,677] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[2017-03-30 17:40:59,725] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:40:59,726] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:40:59,785] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:40:59,954] org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) 
+<INFO> Registering beans for JMX exposure on startup
+
+[2017-03-30 17:40:59,998] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:41:00,003] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:41:00,015] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Using a shared selector for servlet write/read
+
+[2017-03-30 17:41:00,027] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:162) 
+<INFO> Tomcat started on port(s): 8080 (http)
+
+[2017-03-30 17:41:00,031] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 2.924 seconds (JVM running for 3.23)
+
+[2017-03-30 17:41:11,432] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[2017-03-30 17:41:11,433] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization started
+
+[2017-03-30 17:41:11,451] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+
+[2017-03-30 17:41:11,481] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://127.0.0.1:8080/hello
+
+[2017-03-30 17:41:11,482] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> HTTP_METHOD : GET
+
+[2017-03-30 17:41:11,482] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:41:11,483] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> CLASS_METHOD : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:41:11,484] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> ARGS : [2]
+
+[2017-03-30 17:41:11,493] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> RESPONSE : Hello 2
+
+[2017-03-30 17:41:11,494] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> SPEND TIME : 13
+
+[2017-03-30 17:41:51,658] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 10908 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+
+[2017-03-30 17:41:51,660] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-03-30 17:41:51,661] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-03-30 17:41:51,710] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) 
+<INFO> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ec30f48: startup date [Thu Mar 30 17:41:51 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:41:51,917] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) 
+<INFO> HV000001: Hibernate Validator 5.2.2.Final
+
+[2017-03-30 17:41:52,345] org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:839) 
+<INFO> Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+
+[2017-03-30 17:41:53,101] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:81) 
+<INFO> Tomcat initialized with port(s): 8080 (http)
+
+[2017-03-30 17:41:53,113] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting service Tomcat
+
+[2017-03-30 17:41:53,114] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting Servlet Engine: Apache Tomcat/8.0.30
+
+[2017-03-30 17:41:53,207] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring embedded WebApplicationContext
+
+[2017-03-30 17:41:53,208] org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:272) 
+<INFO> Root WebApplicationContext: initialization completed in 1500 ms
+
+[2017-03-30 17:41:53,618] org.springframework.boot.context.embedded.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:189) 
+<INFO> Mapping servlet: 'dispatcherServlet' to [/]
+
+[2017-03-30 17:41:53,621] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[2017-03-30 17:41:53,621] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[2017-03-30 17:41:53,621] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[2017-03-30 17:41:53,622] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'requestContextFilter' to: [/*]
+
+[2017-03-30 17:41:53,855] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) 
+<INFO> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ec30f48: startup date [Thu Mar 30 17:41:51 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:41:53,930] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+
+[2017-03-30 17:41:53,935] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[2017-03-30 17:41:53,935] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[2017-03-30 17:41:53,982] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:41:53,982] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:41:54,040] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:41:54,228] org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) 
+<INFO> Registering beans for JMX exposure on startup
+
+[2017-03-30 17:41:54,274] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:41:54,279] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:41:54,290] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Using a shared selector for servlet write/read
+
+[2017-03-30 17:41:54,303] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:162) 
+<INFO> Tomcat started on port(s): 8080 (http)
+
+[2017-03-30 17:41:54,307] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 2.916 seconds (JVM running for 3.167)
+
+[2017-03-30 17:42:03,502] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[2017-03-30 17:42:03,502] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization started
+
+[2017-03-30 17:42:03,519] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+
+[2017-03-30 17:42:03,553] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://127.0.0.1:8080/hello
+
+[2017-03-30 17:42:03,554] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> HTTP_METHOD : GET
+
+[2017-03-30 17:42:03,554] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:42:03,556] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> CLASS_METHOD : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:42:03,556] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> ARGS : [2]
+
+[2017-03-30 17:42:03,566] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> RESPONSE : Hello 2
+
+[2017-03-30 17:42:03,567] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> SPEND TIME : 14
+
+[2017-03-30 17:43:28,207] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 3180 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+
+[2017-03-30 17:43:28,210] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-03-30 17:43:28,211] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-03-30 17:43:28,266] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) 
+<INFO> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bc3f45d: startup date [Thu Mar 30 17:43:28 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:43:28,510] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) 
+<INFO> HV000001: Hibernate Validator 5.2.2.Final
+
+[2017-03-30 17:43:29,021] org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:839) 
+<INFO> Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+
+[2017-03-30 17:43:29,827] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:81) 
+<INFO> Tomcat initialized with port(s): 8080 (http)
+
+[2017-03-30 17:43:29,839] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting service Tomcat
+
+[2017-03-30 17:43:29,840] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting Servlet Engine: Apache Tomcat/8.0.30
+
+[2017-03-30 17:43:29,927] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring embedded WebApplicationContext
+
+[2017-03-30 17:43:29,928] org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:272) 
+<INFO> Root WebApplicationContext: initialization completed in 1665 ms
+
+[2017-03-30 17:43:30,386] org.springframework.boot.context.embedded.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:189) 
+<INFO> Mapping servlet: 'dispatcherServlet' to [/]
+
+[2017-03-30 17:43:30,389] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[2017-03-30 17:43:30,389] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[2017-03-30 17:43:30,390] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[2017-03-30 17:43:30,390] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'requestContextFilter' to: [/*]
+
+[2017-03-30 17:43:30,644] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) 
+<INFO> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bc3f45d: startup date [Thu Mar 30 17:43:28 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:43:30,716] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+
+[2017-03-30 17:43:30,720] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[2017-03-30 17:43:30,721] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[2017-03-30 17:43:30,765] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:43:30,766] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:43:30,826] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:43:31,032] org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) 
+<INFO> Registering beans for JMX exposure on startup
+
+[2017-03-30 17:43:31,079] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:43:31,085] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:43:31,098] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Using a shared selector for servlet write/read
+
+[2017-03-30 17:43:31,117] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:162) 
+<INFO> Tomcat started on port(s): 8080 (http)
+
+[2017-03-30 17:43:31,121] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 3.211 seconds (JVM running for 3.548)
+
+[2017-03-30 17:43:34,464] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[2017-03-30 17:43:34,464] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization started
+
+[2017-03-30 17:43:34,484] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+
+[2017-03-30 17:43:34,517] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://127.0.0.1:8080/hello
+
+[2017-03-30 17:43:34,518] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:43:34,518] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:43:34,520] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:43:34,520] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:43:34,532] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:43:34,532] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> 耗时 : 15
+
+[2017-03-30 17:44:18,887] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://devfwc.testtsh365.cn:8080/hello
+
+[2017-03-30 17:44:18,887] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:44:18,888] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:44:18,888] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:44:18,888] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:44:18,888] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:44:18,889] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> 耗时 : 2
+
+[2017-03-30 17:44:29,012] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://devfwc.testtsh365.cn:8080/hello
+
+[2017-03-30 17:44:29,013] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:44:29,014] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:44:29,014] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:44:29,015] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:44:29,016] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:44:29,016] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> 耗时 : 4
+
+[2017-03-30 17:45:29,317] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 9204 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+
+[2017-03-30 17:45:29,319] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-03-30 17:45:29,320] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-03-30 17:45:29,356] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) 
+<INFO> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1cf43: startup date [Thu Mar 30 17:45:29 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:45:29,526] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) 
+<INFO> HV000001: Hibernate Validator 5.2.2.Final
+
+[2017-03-30 17:45:29,943] org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:839) 
+<INFO> Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+
+[2017-03-30 17:45:30,666] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:81) 
+<INFO> Tomcat initialized with port(s): 8080 (http)
+
+[2017-03-30 17:45:30,677] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting service Tomcat
+
+[2017-03-30 17:45:30,678] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting Servlet Engine: Apache Tomcat/8.0.30
+
+[2017-03-30 17:45:30,777] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring embedded WebApplicationContext
+
+[2017-03-30 17:45:30,777] org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:272) 
+<INFO> Root WebApplicationContext: initialization completed in 1423 ms
+
+[2017-03-30 17:45:31,199] org.springframework.boot.context.embedded.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:189) 
+<INFO> Mapping servlet: 'dispatcherServlet' to [/]
+
+[2017-03-30 17:45:31,203] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[2017-03-30 17:45:31,203] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[2017-03-30 17:45:31,204] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[2017-03-30 17:45:31,204] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'requestContextFilter' to: [/*]
+
+[2017-03-30 17:45:31,443] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) 
+<INFO> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1cf43: startup date [Thu Mar 30 17:45:29 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:45:31,509] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+
+[2017-03-30 17:45:31,514] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[2017-03-30 17:45:31,514] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[2017-03-30 17:45:31,564] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:45:31,565] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:45:31,622] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:45:31,817] org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) 
+<INFO> Registering beans for JMX exposure on startup
+
+[2017-03-30 17:45:31,864] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:45:31,870] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:45:31,881] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Using a shared selector for servlet write/read
+
+[2017-03-30 17:45:31,894] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:162) 
+<INFO> Tomcat started on port(s): 8080 (http)
+
+[2017-03-30 17:45:31,898] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 2.835 seconds (JVM running for 3.084)
+
+[2017-03-30 17:45:37,578] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[2017-03-30 17:45:37,578] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization started
+
+[2017-03-30 17:45:37,604] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+
+[2017-03-30 17:45:37,642] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://devfwc.testtsh365.cn:8080/hello
+
+[2017-03-30 17:45:37,642] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:45:37,643] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:45:37,644] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:45:37,645] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:45:37,655] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:45:37,655] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> 耗时 : 13 ms
+
+[2017-03-30 17:46:03,329] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://devfwc.testtsh365.cn:8080/hello
+
+[2017-03-30 17:46:03,329] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:46:03,330] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:46:03,330] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : com.didispace.web.HelloController.hello
+
+[2017-03-30 17:46:03,331] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:50) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:46:03,331] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:57) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:46:03,331] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:58) 
+<INFO> 耗时 : 2 ms
+
+[2017-03-30 17:48:35,520] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 10288 (E:\springboot\Chapter4-2-4\target\classes started by Administrator in E:\springboot\Chapter4-2-4)
+
+[2017-03-30 17:48:35,522] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-03-30 17:48:35,522] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-03-30 17:48:35,563] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) 
+<INFO> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e47eb19: startup date [Thu Mar 30 17:48:35 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:48:35,740] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) 
+<INFO> HV000001: Hibernate Validator 5.2.2.Final
+
+[2017-03-30 17:48:36,229] org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:839) 
+<INFO> Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+
+[2017-03-30 17:48:37,038] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:81) 
+<INFO> Tomcat initialized with port(s): 8080 (http)
+
+[2017-03-30 17:48:37,049] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting service Tomcat
+
+[2017-03-30 17:48:37,050] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting Servlet Engine: Apache Tomcat/8.0.30
+
+[2017-03-30 17:48:37,156] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring embedded WebApplicationContext
+
+[2017-03-30 17:48:37,157] org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:272) 
+<INFO> Root WebApplicationContext: initialization completed in 1597 ms
+
+[2017-03-30 17:48:37,697] org.springframework.boot.context.embedded.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:189) 
+<INFO> Mapping servlet: 'dispatcherServlet' to [/]
+
+[2017-03-30 17:48:37,700] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[2017-03-30 17:48:37,700] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[2017-03-30 17:48:37,700] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[2017-03-30 17:48:37,701] org.springframework.boot.context.embedded.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) 
+<INFO> Mapping filter: 'requestContextFilter' to: [/*]
+
+[2017-03-30 17:48:37,939] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) 
+<INFO> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e47eb19: startup date [Thu Mar 30 17:48:35 CST 2017]; root of context hierarchy
+
+[2017-03-30 17:48:38,026] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.didispace.web.HelloController.hello(java.lang.String)
+
+[2017-03-30 17:48:38,030] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[2017-03-30 17:48:38,031] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) 
+<INFO> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[2017-03-30 17:48:38,086] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:48:38,086] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:48:38,146] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341) 
+<INFO> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[2017-03-30 17:48:38,343] org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) 
+<INFO> Registering beans for JMX exposure on startup
+
+[2017-03-30 17:48:38,388] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:48:38,392] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Starting ProtocolHandler ["http-nio-8080"]
+
+[2017-03-30 17:48:38,404] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Using a shared selector for servlet write/read
+
+[2017-03-30 17:48:38,417] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:162) 
+<INFO> Tomcat started on port(s): 8080 (http)
+
+[2017-03-30 17:48:38,421] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 3.186 seconds (JVM running for 3.451)
+
+[2017-03-30 17:48:45,044] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) 
+<INFO> Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[2017-03-30 17:48:45,044] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization started
+
+[2017-03-30 17:48:45,066] org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) 
+<INFO> FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+
+[2017-03-30 17:48:45,100] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:46) 
+<INFO> URL : http://devfwc.testtsh365.cn:8080/hello
+
+[2017-03-30 17:48:45,100] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:47) 
+<INFO> 方法 : GET
+
+[2017-03-30 17:48:45,101] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:48) 
+<INFO> IP : 127.0.0.1
+
+[2017-03-30 17:48:45,102] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:49) 
+<INFO> 类方法 : class com.didispace.web.HelloController:com.didispace.web.HelloController.hello
+
+[2017-03-30 17:48:45,103] com.didispace.aspect.WebLogAspect.doBefore(WebLogAspect.java:53) 
+<INFO> 参数 : [2]
+
+[2017-03-30 17:48:45,113] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:60) 
+<INFO> 响应 : Hello 2
+
+[2017-03-30 17:48:45,113] com.didispace.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:61) 
+<INFO> 耗时 : 13 ms
+

@@ -44,18 +44,20 @@ public class WebLogAspect {
 
         // 记录下请求内容
         logger.info("URL : " + request.getRequestURL().toString());
-        logger.info("HTTP_METHOD : " + request.getMethod());
+        logger.info("方法 : " + request.getMethod());
         logger.info("IP : " + request.getRemoteAddr());
-        logger.info("CLASS_METHOD : " + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName());
-        logger.info("ARGS : " + Arrays.toString(joinPoint.getArgs()));
+        logger.info("类方法 : "  + joinPoint.getSignature().getDeclaringTypeName() + "." 
+        					  + joinPoint.getSignature().getName());
+        
+        logger.info("参数 : " + Arrays.toString(joinPoint.getArgs()));
 
     }
 
     @AfterReturning(returning = "ret", pointcut = "webLog()")
     public void doAfterReturning(Object ret) throws Throwable {
         // 处理完请求，返回内容
-        logger.info("RESPONSE : " + ret);
-        logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));
+        logger.info("响应 : " + ret);
+        logger.info("耗时 : " + (System.currentTimeMillis() - startTime.get()) +" ms");
     }
 
 
