@@ -16,7 +16,12 @@ public class HelloApplicationTests {
 
 	@Test
 	public void hello() throws Exception {
-		sender.send();
+		try {
+			sender.send();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

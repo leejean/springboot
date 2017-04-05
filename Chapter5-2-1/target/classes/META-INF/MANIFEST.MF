@@ -4,6 +4,6 @@ Implementation-Title: rabbitmq-hello
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.didispace
 Build-Jdk: 1.7.0_45
-Built-By: Administrator
+Built-By: leejean
 Created-By: Maven Integration for Eclipse
 
