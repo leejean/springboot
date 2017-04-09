@@ -41,3 +41,4 @@ dependency-reduced-pom.xml
 */classes/*
 */target/*
 /META-INF/*
+*/target/classes/META-INF/maven/*/*/pom.properties
