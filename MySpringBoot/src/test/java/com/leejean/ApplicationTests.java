@@ -14,9 +14,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+//import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.leejean.web.HelloController;
+//import com.leejean.controller.HelloController;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -29,7 +29,7 @@ public class ApplicationTests {
 	@Before
 	public void setUp() throws Exception {
 		//1weqwe
-		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
+//		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
 	}
 
 	@Test
