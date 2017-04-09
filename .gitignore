@@ -40,3 +40,4 @@ dependency-reduced-pom.xml
 */classes/**
 */classes/*
 */target/*
+/META-INF/*
