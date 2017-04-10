@@ -2,6 +2,8 @@ package com.leejean.services;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -66,7 +68,8 @@ public class UserServiceImpl implements UserService {
 		}
 		return userVos;
 	}
-
+//	@Transactional
+//	@Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED)
 	@Override
 	public UserVo save(UserVo userVo) {
 		User user = new User();
