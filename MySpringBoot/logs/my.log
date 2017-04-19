@@ -1,0 +1,295 @@
+[2017-04-19 17:54:54,143] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 90544 (E:\springboot\MySpringBoot\target\classes started by Administrator in E:\springboot\MySpringBoot)
+
+[2017-04-19 17:54:54,208] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-04-19 17:54:54,214] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-04-19 17:55:09,079] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 15.325 seconds (JVM running for 16.169)
+
+[2017-04-19 17:57:21,877] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:56) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUser
+
+[2017-04-19 17:57:21,877] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:57) 
+<INFO> 方法 : GET
+
+[2017-04-19 17:57:21,878] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 17:57:21,878] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUser
+
+[2017-04-19 17:57:21,878] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 参数 : [0]
+
+[2017-04-19 17:57:21,916] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:67) 
+<INFO> { "requestURL" : "http://127.0.0.1:8080/mongoUser/getUser" , "requestURI" : "/mongoUser/getUser" , "queryString" : "id=0" , "remoteAddr" : "127.0.0.1" , "remoteHost" : "127.0.0.1" , "remotePort" : 58723 , "localAddr" : "127.0.0.1" , "localName" : "127.0.0.1" , "method" : "GET" , "headers" : { "cookie" : "JSESSIONID=5jyvlzayst1118yzaczge67n6" , "connection" : "keep-alive" , "accept-language" : "zh-CN,zh;q=0.8" , "host" : "127.0.0.1:8080" , "accept" : "*/*" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" , "accept-encoding" : "gzip, deflate, sdch, br" , "referer" : "http://127.0.0.1:8080/swagger-ui.html"} , "parameters" : { "id" : [ "0"]} , "classMethod" : "com.leejean.controller.MongoUserController.getUser" , "args" : "[0]"}
+
+[2017-04-19 17:57:22,217] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:75) 
+<INFO> {
+	"id":0,
+	"name":"易水寒",
+	"age":18,
+	"height":0.0,
+	"birthday":Wed Apr 19 16:31:17 CST 2017,
+	"createTime":Wed Apr 19 16:31:17 CST 2017,
+	"updateTime":Wed Apr 19 16:31:17 CST 2017
+}
+
+[2017-04-19 17:57:22,217] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:76) 
+<INFO> 响应 : {"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}
+
+[2017-04-19 17:57:22,217] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> 耗时 : 340 ms
+
+[2017-04-19 17:58:51,704] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:56) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUser
+
+[2017-04-19 17:58:51,706] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:57) 
+<INFO> 方法 : GET
+
+[2017-04-19 17:58:51,707] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 17:58:51,707] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUser
+
+[2017-04-19 17:58:51,708] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 参数 : [0]
+
+[2017-04-19 17:58:51,720] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:67) 
+<INFO> { "requestURL" : "http://127.0.0.1:8080/mongoUser/getUser" , "requestURI" : "/mongoUser/getUser" , "queryString" : "id=0" , "remoteAddr" : "127.0.0.1" , "remoteHost" : "127.0.0.1" , "remotePort" : 58770 , "localAddr" : "127.0.0.1" , "localName" : "127.0.0.1" , "method" : "GET" , "headers" : { "cookie" : "JSESSIONID=5jyvlzayst1118yzaczge67n6" , "connection" : "keep-alive" , "accept-language" : "zh-CN,zh;q=0.8" , "host" : "127.0.0.1:8080" , "accept" : "*/*" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" , "accept-encoding" : "gzip, deflate, sdch, br" , "referer" : "http://127.0.0.1:8080/swagger-ui.html"} , "parameters" : { "id" : [ "0"]} , "classMethod" : "com.leejean.controller.MongoUserController.getUser" , "args" : "[0]"}
+
+[2017-04-19 17:58:51,726] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:75) 
+<INFO> {
+	"id":0,
+	"name":"易水寒",
+	"age":18,
+	"height":0.0,
+	"birthday":Wed Apr 19 16:31:17 CST 2017,
+	"createTime":Wed Apr 19 16:31:17 CST 2017,
+	"updateTime":Wed Apr 19 16:31:17 CST 2017
+}
+
+[2017-04-19 17:58:51,727] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:76) 
+<INFO> 响应 : {"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}
+
+[2017-04-19 17:58:51,727] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> 耗时 : 23 ms
+
+[2017-04-19 18:01:12,079] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:56) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUser
+
+[2017-04-19 18:01:12,082] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:57) 
+<INFO> 方法 : GET
+
+[2017-04-19 18:01:12,082] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 18:01:12,082] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUser
+
+[2017-04-19 18:01:12,083] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 参数 : [0]
+
+[2017-04-19 18:01:12,091] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:67) 
+<INFO> { "requestURL" : "http://127.0.0.1:8080/mongoUser/getUser" , "requestURI" : "/mongoUser/getUser" , "queryString" : "id=0" , "remoteAddr" : "127.0.0.1" , "remoteHost" : "127.0.0.1" , "remotePort" : 58836 , "localAddr" : "127.0.0.1" , "localName" : "127.0.0.1" , "method" : "GET" , "headers" : { "cookie" : "JSESSIONID=5jyvlzayst1118yzaczge67n6" , "connection" : "keep-alive" , "accept-language" : "zh-CN,zh;q=0.8" , "host" : "127.0.0.1:8080" , "accept" : "*/*" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" , "accept-encoding" : "gzip, deflate, sdch, br" , "referer" : "http://127.0.0.1:8080/swagger-ui.html"} , "parameters" : { "id" : [ "0"]} , "classMethod" : "com.leejean.controller.MongoUserController.getUser" , "args" : "[0]"}
+
+[2017-04-19 18:03:00,218] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:75) 
+<INFO> {
+	"id":0,
+	"name":"易水寒",
+	"age":18,
+	"height":0.0,
+	"birthday":Wed Apr 19 16:31:17 CST 2017,
+	"createTime":Wed Apr 19 16:31:17 CST 2017,
+	"updateTime":Wed Apr 19 16:31:17 CST 2017
+}
+
+[2017-04-19 18:03:00,221] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:76) 
+<INFO> 响应 : {"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}
+
+[2017-04-19 18:03:00,222] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> 耗时 : 108143 ms
+
+[2017-04-19 18:03:29,322] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:56) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUser
+
+[2017-04-19 18:03:29,324] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:57) 
+<INFO> 方法 : GET
+
+[2017-04-19 18:03:29,326] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 18:03:29,326] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUser
+
+[2017-04-19 18:03:29,326] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 参数 : [0]
+
+[2017-04-19 18:03:29,423] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:67) 
+<INFO> { "requestURL" : "http://127.0.0.1:8080/mongoUser/getUser" , "requestURI" : "/mongoUser/getUser" , "queryString" : "id=0" , "remoteAddr" : "127.0.0.1" , "remoteHost" : "127.0.0.1" , "remotePort" : 58901 , "localAddr" : "127.0.0.1" , "localName" : "127.0.0.1" , "method" : "GET" , "headers" : { "cookie" : "JSESSIONID=5jyvlzayst1118yzaczge67n6" , "connection" : "keep-alive" , "accept-language" : "zh-CN,zh;q=0.8" , "host" : "127.0.0.1:8080" , "accept" : "*/*" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" , "accept-encoding" : "gzip, deflate, sdch, br" , "referer" : "http://127.0.0.1:8080/swagger-ui.html"} , "parameters" : { "id" : [ "0"]} , "classMethod" : "com.leejean.controller.MongoUserController.getUser" , "args" : "[0]"}
+
+[2017-04-19 18:03:29,427] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:75) 
+<INFO> {
+	"id":0,
+	"name":"易水寒",
+	"age":18,
+	"height":0.0,
+	"birthday":Wed Apr 19 16:31:17 CST 2017,
+	"createTime":Wed Apr 19 16:31:17 CST 2017,
+	"updateTime":Wed Apr 19 16:31:17 CST 2017
+}
+
+[2017-04-19 18:03:29,427] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:76) 
+<INFO> 响应 : {"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}
+
+[2017-04-19 18:03:29,427] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> 耗时 : 105 ms
+
+[2017-04-19 18:04:33,467] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 96460 (E:\springboot\MySpringBoot\target\classes started by Administrator in E:\springboot\MySpringBoot)
+
+[2017-04-19 18:04:33,470] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-04-19 18:04:33,470] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-04-19 18:04:45,979] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 13.167 seconds (JVM running for 13.647)
+
+[2017-04-19 18:11:10,901] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 89492 (E:\springboot\MySpringBoot\target\classes started by Administrator in E:\springboot\MySpringBoot)
+
+[2017-04-19 18:11:10,903] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-04-19 18:11:10,903] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-04-19 18:11:22,254] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 11.897 seconds (JVM running for 13.116)
+
+[2017-04-19 18:20:59,092] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUser
+
+[2017-04-19 18:20:59,093] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 方法 : GET
+
+[2017-04-19 18:20:59,094] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:60) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 18:20:59,094] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUser
+
+[2017-04-19 18:20:59,095] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:63) 
+<INFO> 参数 : [0]
+
+[2017-04-19 18:21:31,714] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> {
+	"id":0,
+	"name":"易水寒",
+	"age":18,
+	"height":0.0,
+	"birthday":Wed Apr 19 16:31:17 CST 2017,
+	"createTime":Wed Apr 19 16:31:17 CST 2017,
+	"updateTime":Wed Apr 19 16:31:17 CST 2017
+}
+
+[2017-04-19 18:21:31,714] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:78) 
+<INFO> 响应 : {"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}
+
+[2017-04-19 18:21:31,714] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:79) 
+<INFO> 耗时 : 32622 ms
+
+[2017-04-19 18:24:35,355] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/getUserList
+
+[2017-04-19 18:24:35,358] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 方法 : GET
+
+[2017-04-19 18:24:35,359] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:60) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 18:24:35,359] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.getUserList
+
+[2017-04-19 18:24:35,359] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:63) 
+<INFO> 参数 : []
+
+[2017-04-19 18:24:35,386] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> [
+	{
+		"id":0,
+		"name":"易水寒",
+		"age":18,
+		"height":0.0,
+		"birthday":Wed Apr 19 16:31:17 CST 2017,
+		"createTime":Wed Apr 19 16:31:17 CST 2017,
+		"updateTime":Wed Apr 19 16:31:17 CST 2017
+	},
+	 {
+		"id":1,
+		"name":"李帝",
+		"age":43,
+		"height":140.0,
+		"birthday":Wed Apr 19 16:31:17 CST 2017,
+		"createTime":Wed Apr 19 16:31:17 CST 2017,
+		"updateTime":Wed Apr 19 16:31:17 CST 2017
+	}
+]
+
+[2017-04-19 18:24:35,386] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:78) 
+<INFO> 响应 : [{"id":0,"name":"易水寒","age":18,"height":0.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}, {"id":1,"name":"李帝","age":43,"height":140.0,"birthday":Wed Apr 19 16:31:17 CST 2017,"createTime":Wed Apr 19 16:31:17 CST 2017,"updateTime":Wed Apr 19 16:31:17 CST 2017}]
+
+[2017-04-19 18:24:35,387] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:79) 
+<INFO> 耗时 : 33 ms
+
+[2017-04-19 18:25:50,662] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) 
+<INFO> Starting Application on USER-20170203IG with PID 94896 (E:\springboot\MySpringBoot\target\classes started by Administrator in E:\springboot\MySpringBoot)
+
+[2017-04-19 18:25:50,665] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:51) 
+<DEBUG> Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+
+[2017-04-19 18:25:50,665] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:666) 
+<INFO> No active profile set, falling back to default profiles: default
+
+[2017-04-19 18:26:02,810] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) 
+<INFO> Started Application in 12.676 seconds (JVM running for 13.334)
+
+[2017-04-19 18:28:26,153] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:58) 
+<INFO> URL : http://127.0.0.1:8080/mongoUser/addUser
+
+[2017-04-19 18:28:26,153] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:59) 
+<INFO> 方法 : POST
+
+[2017-04-19 18:28:26,154] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:60) 
+<INFO> IP : 127.0.0.1
+
+[2017-04-19 18:28:26,155] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:61) 
+<INFO> 类方法 : com.leejean.controller.MongoUserController.addUser
+
+[2017-04-19 18:28:26,165] com.leejean.comm.aspect.WebLogAspect.doBefore(WebLogAspect.java:63) 
+<INFO> 参数 : [{"id":0,"name":"SpringBoot","age":3,"height":0.0,"birthday":Wed Apr 19 18:21:37 CST 2017,"createTime":Wed Apr 19 18:21:37 CST 2017,"updateTime":Wed Apr 19 18:21:37 CST 2017}]
+
+[2017-04-19 18:28:26,350] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:77) 
+<INFO> {
+	"id":0,
+	"name":"SpringBoot",
+	"age":3,
+	"height":0.0,
+	"birthday":Wed Apr 19 18:21:37 CST 2017,
+	"createTime":Wed Apr 19 18:21:37 CST 2017,
+	"updateTime":Wed Apr 19 18:21:37 CST 2017
+}
+
+[2017-04-19 18:28:26,350] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:78) 
+<INFO> 响应 : {"id":0,"name":"SpringBoot","age":3,"height":0.0,"birthday":Wed Apr 19 18:21:37 CST 2017,"createTime":Wed Apr 19 18:21:37 CST 2017,"updateTime":Wed Apr 19 18:21:37 CST 2017}
+
+[2017-04-19 18:28:26,351] com.leejean.comm.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:79) 
+<INFO> 耗时 : 198 ms
+

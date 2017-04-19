@@ -1,17 +1,19 @@
-package com.didispace.async;
+package com.leejean.async;
+
+import java.util.Random;
+import java.util.concurrent.Future;
 
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Component;
 
-import java.util.Random;
-import java.util.concurrent.Future;
-
 /**
- * @author 程序猿DD
- * @version 1.0.0
- * @date 16/5/16 下午12:58.
- * @blog http://blog.didispace.com
+ * 
+ * TODO 异步执行.<br>
+ * @author Leejean <br>
+ * @version 1.0.0 2017年4月19日 下午3:48:56<br>
+ * @see 
+ * @since JDK 1.7.0
  */
 @Component
 public class Task {

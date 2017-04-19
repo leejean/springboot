@@ -1,22 +1,25 @@
-package com.leejean.models;
+package com.leejean.comm.mongo;
 
 import java.util.Date;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.springframework.data.annotation.Id;
 
 import io.swagger.annotations.ApiModelProperty;
+
 /**
  * 
- * TODO UserVo.<br>
+ * TODO Mongo User.<br>
  * @author Leejean <br>
- * @version 1.0.0 2017年4月9日 下午5:03:35<br>
+ * @version 1.0.0 2017年4月19日 下午3:42:53<br>
  * @see 
  * @since JDK 1.7.0
  */
-public class UserVo {
+public class User {
 
-    @ApiModelProperty("用户id")  
+    @ApiModelProperty("用户id") 
+    @Id
     private Long id;
 
     @ApiModelProperty("姓名") 
@@ -37,16 +40,23 @@ public class UserVo {
     @ApiModelProperty("最后修改时间")
     private Date updateTime;
 
-    public UserVo(){}
+    public User(){}
 
-    public UserVo(String name, Integer age, Double height) {
+    public User(String name, Integer age, Double height) {
         this.name = name;
         this.age = age;
         this.height = height;
     }
     
 
-    public Double getHeight() {
+    public User(Long id, String name, Integer age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+
+	public Double getHeight() {
 		return height;
 	}
 
@@ -101,8 +111,10 @@ public class UserVo {
     public void setAge(Integer age) {
         this.age = age;
     }
+    
     @Override
     public String toString() {
     	return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
     }
+    
 }
