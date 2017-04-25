@@ -12,7 +12,7 @@ import com.leejean.models.UserVo;
  * @see 
  * @since JDK 1.7.0
  */
-public interface UserService {
+public interface JpaUserService {
 
 	UserVo findByName(String name);
 

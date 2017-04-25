@@ -7,10 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.common.collect.Lists;
-import com.leejean.comm.mongo.MongoDBUserRepository;
 import com.leejean.entitys.User;
 import com.leejean.models.UserVo;
-import com.leejean.respository.UserRepository;
+import com.leejean.respository.UserJpaRepository;
 
 /**
  * 
@@ -21,31 +20,29 @@ import com.leejean.respository.UserRepository;
  * @since JDK 1.7.0
  */
 @Service
-public class UserServiceImpl implements UserService {
+public class JpaUserServiceImpl implements JpaUserService {
 
     @Autowired
-    private UserRepository userRepository;
-    @Autowired
-    private MongoDBUserRepository mongoDBUserRepository;
+    private UserJpaRepository userJpaRepository;
 
 	@Override
 	public UserVo findByName(String name) {
 		UserVo userVo = new UserVo();
-		BeanUtils.copyProperties(this.userRepository.findByName(name), userVo);
+		BeanUtils.copyProperties(this.userJpaRepository.findByName(name), userVo);
 		return userVo;
 	}
 
 	@Override
 	public UserVo findByNameAndAge(String name, Integer age) {
 		UserVo userVo = new UserVo();
-		BeanUtils.copyProperties(this.userRepository.findByNameAndAge(name, age), userVo);
+		BeanUtils.copyProperties(this.userJpaRepository.findByNameAndAge(name, age), userVo);
 		return userVo;
 	}
 
 	@Override
 	public UserVo findUser(String name) {
 		UserVo userVo = new UserVo();
-		BeanUtils.copyProperties(this.userRepository.findUser(name), userVo);
+		BeanUtils.copyProperties(this.userJpaRepository.findUser(name), userVo);
 		return userVo;
 		
 	}
@@ -53,13 +50,13 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserVo findUserById(Long id) {
 		UserVo userVo = new UserVo();
-		BeanUtils.copyProperties(this.userRepository.findUserById(id), userVo);
+		BeanUtils.copyProperties(this.userJpaRepository.findUserById(id), userVo);
 		return userVo;
 	}
 
 	@Override
 	public List<UserVo> findAll() {
-		List<User> findAll = this.userRepository.findAll();
+		List<User> findAll = this.userJpaRepository.findAll();
 		UserVo userVo = null;
 		List<UserVo> userVos = Lists.newArrayList();
 		for (User user : findAll) {
@@ -77,7 +74,7 @@ public class UserServiceImpl implements UserService {
 		
 		BeanUtils.copyProperties(userVo, user);
 		
-		user = this.userRepository.save(user);
+		user = this.userJpaRepository.save(user);
 		
 				
 		return this.findUserById(user.getId());
@@ -85,7 +82,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public Long delete(Long id) {
-		this.userRepository.delete(id);
+		this.userJpaRepository.delete(id);
 		return id;
 	}
     
