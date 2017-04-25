@@ -85,5 +85,12 @@ public class JpaUserServiceImpl implements JpaUserService {
 		this.userJpaRepository.delete(id);
 		return id;
 	}
+
+	@Override
+	public void testTransaction() {
+		this.save(new UserVo("name1", 16, 175.5));
+		this.save(new UserVo("我就是要测试一下我如果输入的名字很长，下面那条数据会不会保存成功", 16, 175.5));
+		this.save(new UserVo("name2", 15, 180.00));
+	}
     
 }

@@ -2,6 +2,10 @@ package com.leejean.services;
 
 import java.util.List;
 
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.leejean.models.UserVo;
 
 /**
@@ -27,5 +31,8 @@ public interface JpaUserService {
 	UserVo save(UserVo user);
 
 	Long delete(Long id);
+	
+	@Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor=Exception.class)
+	void testTransaction();
 
 }

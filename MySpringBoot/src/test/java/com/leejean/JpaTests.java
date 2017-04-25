@@ -8,15 +8,15 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.leejean.services.JdbcTemplateUserService;
+import com.leejean.services.JpaUserService;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(Application.class)
-public class JdbcTemplateTests {
+public class JpaTests {
 
 	@Autowired
-	private JdbcTemplateUserService jdbcTemplateUserService;
+	private JpaUserService jpaUserService;
 
 	@Before
 	public void setUp() {
@@ -24,24 +24,14 @@ public class JdbcTemplateTests {
 	}
 
 	@Test
-	public void getAllUsers() throws Exception {
+	public void testTransaction() throws Exception {
 		try {
-			Integer allUsers = jdbcTemplateUserService.getAllUsers();
-			System.out.println(allUsers);
+			jpaUserService.testTransaction();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
-	}
-	@Test
-	public void create() throws Exception {
-		try {
-			Integer create = jdbcTemplateUserService.create("小小舒", 16);
-			System.out.println(create);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
 	}
 
 }
+
