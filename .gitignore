@@ -45,3 +45,4 @@ dependency-reduced-pom.xml
 Chapter4-5-1/target/classes/META-INF/maven/com.didispace/Chapter4-5-1/pom.properties
 *.log
 教程/Chapter3-1-4/target/classes/META-INF/maven/com.didispace/Chapter3-1-4/pom.properties
+*.log
