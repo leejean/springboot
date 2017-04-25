@@ -54,6 +54,10 @@ public class User {
         this.height = height;
     }
     
+    public User(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public Double getHeight() {
 		return height;
