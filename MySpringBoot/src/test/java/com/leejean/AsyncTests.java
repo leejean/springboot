@@ -14,7 +14,7 @@ import com.leejean.async.Task;
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
-public class AsyncApplicationTests {
+public class AsyncTests {
 
 	@Autowired
 	private Task task;

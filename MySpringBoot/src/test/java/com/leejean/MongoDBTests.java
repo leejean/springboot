@@ -16,7 +16,7 @@ import com.leejean.comm.mongo.User;
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(Application.class)
-public class MongoDBApplicationTests {
+public class MongoDBTests {
 
 	@Autowired
 	private MongoDBUserRepository mongoDBUserRepository;

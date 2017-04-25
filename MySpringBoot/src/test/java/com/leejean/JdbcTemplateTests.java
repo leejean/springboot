@@ -13,7 +13,7 @@ import com.leejean.services.JdbcTemplateUserService;
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(Application.class)
-public class JdbcApplicationTests {
+public class JdbcTemplateTests {
 
 	@Autowired
 	private JdbcTemplateUserService jdbcTemplateUserService;
