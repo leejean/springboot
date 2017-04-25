@@ -5,9 +5,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import com.leejean.entitys.User;
+import com.leejean.respository.UserJpaRepository;
 import com.leejean.services.JpaUserService;
 
 @WebAppConfiguration
@@ -17,12 +21,16 @@ public class JpaTests {
 
 	@Autowired
 	private JpaUserService jpaUserService;
+	@Autowired
+	private UserJpaRepository userJpaRepository;
+	
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Before
-	public void setUp() {
-		//userRepository.deleteAll();
+	public void before() {
+		//userJpaRepository.save(new User("AAA", 18));
 	}
-
 	@Test
 	public void testTransaction() throws Exception {
 		try {
@@ -30,7 +38,33 @@ public class JpaTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+	}
+	/*
+	 * 测试一下缓存
+	 * @EnableCaching //启用缓存
+		public class Application {
+	 */
+	@Test
+	public void testCache() throws Exception {
+		try {
+			//userRepository.save(new User("AAA", 10));
+			System.out.println("--------------------------------------"+System.currentTimeMillis());
+			User u1 = userJpaRepository.findByName("AAA");
+			System.out.println("第一次查询：" + u1.getAge());
+			System.out.println("--------------------------------------"+System.currentTimeMillis());
+			User u2 = userJpaRepository.findByName("AAA");
+			System.out.println("第二次查询：" + u2.getAge());
+			System.out.println("--------------------------------------"+System.currentTimeMillis());
+			u1.setAge(20);
+			userJpaRepository.save(u1);
+			User u3 = userJpaRepository.findByName("AAA");
+			System.out.println("第三次查询：" + u3.getAge());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		}
+		
 	}
 
 }

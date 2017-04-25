@@ -2,6 +2,7 @@ package com.leejean;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 /**
  * TODO 程序启动类.<br>
  * @author Leejean <br>
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since JDK 1.7.0
  */
 @SpringBootApplication
+@EnableCaching //启用缓存
 public class Application {
 
 	public static void main(String[] args) {
