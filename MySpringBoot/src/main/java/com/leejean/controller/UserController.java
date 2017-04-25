@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.leejean.models.UserVo;
-import com.leejean.services.UserService;
+import com.leejean.services.JpaUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -27,7 +27,7 @@ import io.swagger.annotations.ApiOperation;
 public class UserController {
 
 	@Autowired
-	private UserService userService;
+	private JpaUserService userService;
 	
     @ApiOperation(value="获取用户列表", notes="获取用户列表")
     @RequestMapping(value= "getUserList", method=RequestMethod.GET)
