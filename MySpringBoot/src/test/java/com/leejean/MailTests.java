@@ -34,7 +34,7 @@ public class MailTests {
 
 		try {
 			SimpleMailMessage message = new SimpleMailMessage();
-			message.setFrom("ilove_cp3@163.com");
+			message.setFrom("872468551@qq.com");
 			message.setTo("ilove_cp3@163.com");
 			message.setSubject("主题：简单邮件");
 			message.setText("测试邮件内容");
@@ -51,12 +51,12 @@ public class MailTests {
 			MimeMessage mimeMessage = mailSender.createMimeMessage();
 
 			MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
-			helper.setFrom("ilove_cp3@163.com");
+			helper.setFrom("872468551@qq.com");
 			helper.setTo("ilove_cp3@163.com");
 			helper.setSubject("主题：有附件");
 			helper.setText("有附件的邮件");
 
-			FileSystemResource file = new FileSystemResource(new File("weixin.jpg"));
+			FileSystemResource file = new FileSystemResource(new File("E:/我的工作/图片/易理坚.png"));
 			helper.addAttachment("附件-1.jpg", file);
 			helper.addAttachment("附件-2.jpg", file);
 
@@ -75,12 +75,12 @@ public class MailTests {
 			MimeMessage mimeMessage = mailSender.createMimeMessage();
 
 			MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
-			helper.setFrom("ilove_cp3@163.com");
+			helper.setFrom("872468551@qq.com");
 			helper.setTo("ilove_cp3@163.com");
 			helper.setSubject("主题：嵌入静态资源");
 			helper.setText("<html><body><img src=\"cid:weixin\" ></body></html>", true);
 
-			FileSystemResource file = new FileSystemResource(new File("weixin.jpg"));
+			FileSystemResource file = new FileSystemResource(new File("E:/我的工作/图片/易理坚.png"));
 			helper.addInline("weixin", file);
 
 			mailSender.send(mimeMessage);
@@ -97,7 +97,7 @@ public class MailTests {
 		MimeMessage mimeMessage = mailSender.createMimeMessage();
 
 		MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
-		helper.setFrom("ilove_cp3@163.com");
+		helper.setFrom("872468551@qq.com");
 		helper.setTo("ilove_cp3@163.com");
 		helper.setSubject("主题：模板邮件");
 
