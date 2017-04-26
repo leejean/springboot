@@ -1,6 +1,11 @@
 package com.leejean;
 
-import org.apache.commons.collections.map.HashedMap;
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.mail.internet.MimeMessage;
+
 import org.apache.velocity.app.VelocityEngine;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,10 +18,6 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.ui.velocity.VelocityEngineUtils;
-
-import javax.mail.internet.MimeMessage;
-import java.io.File;
-import java.util.Map;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -101,8 +102,8 @@ public class MailTests {
 		helper.setTo("ilove_cp3@163.com");
 		helper.setSubject("主题：模板邮件");
 
-		Map<String, Object> model = new HashedMap();
-		model.put("username", "didi");
+		Map<String, Object> model = new HashMap();
+		model.put("username", "易理坚");
 		String text = VelocityEngineUtils.mergeTemplateIntoString(
 				velocityEngine, "template.vm", "UTF-8", model);
 		helper.setText(text, true);
