@@ -1,4 +1,4 @@
-package com.leejean.entitys;
+package com.oil.entitys;
 
 import java.util.Date;
 

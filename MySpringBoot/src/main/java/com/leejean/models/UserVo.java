@@ -1,4 +1,4 @@
-package com.leejean.models;
+package com.oil.models;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.leejean.comm.log;
+package com.oil.comm.log;
 
 import org.apache.log4j.AppenderSkeleton;
 import org.apache.log4j.spi.LoggingEvent;

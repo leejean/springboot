@@ -1,10 +1,10 @@
-package com.leejean.controller;
+package com.oil.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.leejean.comm.exception.MyException;
+import com.oil.comm.exception.MyException;
 
 /**
  * 

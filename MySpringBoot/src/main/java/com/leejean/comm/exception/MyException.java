@@ -1,4 +1,4 @@
-package com.leejean.comm.exception;
+package com.oil.comm.exception;
 
 /**
  * 

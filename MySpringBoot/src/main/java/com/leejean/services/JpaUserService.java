@@ -1,4 +1,4 @@
-package com.leejean.services;
+package com.oil.services;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.leejean.models.UserVo;
+import com.oil.models.UserVo;
 
 /**
  * 

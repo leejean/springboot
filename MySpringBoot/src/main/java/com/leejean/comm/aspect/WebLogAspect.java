@@ -1,4 +1,4 @@
-package com.leejean.comm.aspect;
+package com.oil.comm.aspect;
 
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.leejean.comm.configs.SystemConfigs;
-import com.leejean.comm.utils.FormatUtil;
+import com.oil.comm.configs.SystemConfigs;
+import com.oil.comm.utils.FormatUtil;
 import com.mongodb.BasicDBObject;
 
 import javax.servlet.http.HttpServletRequest;
@@ -43,7 +43,7 @@ public class WebLogAspect {
 
     ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-    @Pointcut("execution(public * com.leejean.controller..*.*(..))")
+    @Pointcut("execution(public * com.oil.controller..*.*(..))")
     public void webLog(){}
 
     @Before("webLog()")

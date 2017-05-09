@@ -1,4 +1,4 @@
-package com.leejean.services;
+package com.oil.services;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.common.collect.Lists;
-import com.leejean.entitys.User;
-import com.leejean.models.UserVo;
-import com.leejean.respository.UserJpaRepository;
+import com.oil.entitys.User;
+import com.oil.models.UserVo;
+import com.oil.respository.UserJpaRepository;
 
 /**
  * 

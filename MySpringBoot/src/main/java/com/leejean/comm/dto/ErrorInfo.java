@@ -1,4 +1,4 @@
-package com.leejean.comm.dto;
+package com.oil.comm.dto;
 
 public class ErrorInfo<T> {
 

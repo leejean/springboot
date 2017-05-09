@@ -1,8 +1,8 @@
-package com.leejean.services;
+package com.oil.services;
 
 import java.util.List;
 
-import com.leejean.comm.mongo.User;
+import com.oil.comm.mongo.User;
 
 /**
  * 

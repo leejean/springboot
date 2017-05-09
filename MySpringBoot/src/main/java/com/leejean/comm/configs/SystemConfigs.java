@@ -1,4 +1,4 @@
-package com.leejean.comm.configs;
+package com.oil.comm.configs;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -16,20 +16,20 @@ public class SystemConfigs {
 	/**
 	 * 是否显示请求参数
 	 */
-    @Value("${com.leejean.comm.configs.show_request_params}")
+    @Value("${com.oil.comm.configs.show_request_params}")
     public Boolean show_request_params = false;
     /**
      * 是否显示响应结果
      */
-    @Value("${com.leejean.comm.configs.show_response_datas}")
+    @Value("${com.oil.comm.configs.show_response_datas}")
     public Boolean show_response_datas = false;
     /**
      * 日志切面配置
      */
-    @Value("${com.leejean.comm.aspect.pointcut}")
+    @Value("${com.oil.comm.aspect.pointcut}")
     public String aspect_pointcut = "";
     
-    @Value("${com.leejean.comm.configs.logger2mongo}")
+    @Value("${com.oil.comm.configs.logger2mongo}")
     public Boolean logger2mongo = false;
     
 	public Boolean getShow_request_params() {

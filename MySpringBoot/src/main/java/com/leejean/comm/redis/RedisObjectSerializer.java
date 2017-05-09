@@ -1,4 +1,4 @@
-package com.leejean.comm.redis;
+package com.oil.comm.redis;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.serializer.support.DeserializingConverter;

@@ -1,4 +1,4 @@
-package com.leejean.services;
+package com.oil.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

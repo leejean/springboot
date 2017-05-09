@@ -1,8 +1,8 @@
-package com.leejean.comm.mybatis;
+package com.oil.comm.mybatis;
 
 import org.apache.ibatis.annotations.*;
 
-import com.leejean.entitys.User;
+import com.oil.entitys.User;
 
 @Mapper
 public interface UserMapper {

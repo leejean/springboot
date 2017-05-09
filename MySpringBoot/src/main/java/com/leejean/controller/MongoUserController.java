@@ -1,4 +1,4 @@
-package com.leejean.controller;
+package com.oil.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.leejean.comm.mongo.User;
-import com.leejean.services.MongoUserService;
+import com.oil.comm.mongo.User;
+import com.oil.services.MongoUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

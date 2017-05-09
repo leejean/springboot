@@ -1,12 +1,12 @@
-package com.leejean.services;
+package com.oil.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.leejean.comm.mongo.MongoDBUserRepository;
-import com.leejean.comm.mongo.User;
+import com.oil.comm.mongo.MongoDBUserRepository;
+import com.oil.comm.mongo.User;
 
 /**
  * 

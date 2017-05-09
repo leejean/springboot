@@ -1,4 +1,4 @@
-package com.leejean.comm.exception;
+package com.oil.comm.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.leejean.comm.dto.ErrorInfo;
+import com.oil.comm.dto.ErrorInfo;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {

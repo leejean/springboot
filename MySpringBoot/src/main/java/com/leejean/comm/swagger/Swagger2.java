@@ -1,4 +1,4 @@
-package com.leejean.comm.swagger;
+package com.oil.comm.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,7 +28,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.leejean.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.oil.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
