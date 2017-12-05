@@ -9,7 +9,9 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.oil.async.Task;
+import cn.leejean.Application;
+import cn.leejean.async.Task;
+
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -10,7 +10,8 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.oil.entitys.User;
+import cn.leejean.Application;
+import cn.leejean.entitys.User;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)

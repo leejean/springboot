@@ -8,7 +8,8 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.oil.services.JdbcTemplateUserService;
+import cn.leejean.Application;
+import cn.leejean.services.JdbcTemplateUserService;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)

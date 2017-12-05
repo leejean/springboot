@@ -9,9 +9,10 @@ import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.oil.entitys.User;
-import com.oil.respository.UserJpaRepository;
-import com.oil.services.JpaUserService;
+import cn.leejean.Application;
+import cn.leejean.entitys.User;
+import cn.leejean.respository.UserJpaRepository;
+import cn.leejean.services.JpaUserService;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)

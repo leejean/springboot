@@ -10,8 +10,10 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.oil.comm.mongo.MongoDBUserRepository;
-import com.oil.comm.mongo.User;
+import cn.leejean.Application;
+import cn.leejean.comm.mongo.MongoDBUserRepository;
+import cn.leejean.comm.mongo.User;
+
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
